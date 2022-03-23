@@ -1,0 +1,32 @@
+{
+    "short_name": "HearMe",
+    "name": "HearMe SOS by Safean",
+    "description": "SOS Alert Application for all",
+    "icons": [
+        {
+            "src": "../Content/Logo - HearMe.png",
+            "type": "image/png",
+            "sizes": "725x725"
+        }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+        {
+            "name": "How's weather today?",
+            "short_name": "Today",
+            "description": "View weather information for today",
+            "url": "/#modal",
+            "icons": [
+                {
+                    "src": "/images/today.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+       
+    ]
+}
